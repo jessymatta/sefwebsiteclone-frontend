@@ -8,17 +8,46 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border: 5px solid red;
+    /* border: 5px solid red; */
     color:white;
 }
-a{
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 40px;
+    white-space: normal;
+}
+
+.header-content {
+    width: 100%;
+    position: relative;
+    top: 16%;
+    left: 8%;
+}
+.sub-text{
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header a{
     color: white;
     font-weight: bolder;
     font-size: 1.1rem ;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 nav{
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     margin:2rem;
     padding: 2% ;
     display: flex;
@@ -27,10 +56,10 @@ nav{
 }
 
 nav ul{
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 150%;
 
 }
 
@@ -41,7 +70,7 @@ nav ul li {
 }
 
 .logo img{
-    width: 10%;
+    width: 20%;
     height: auto;
 }
 
@@ -51,17 +80,6 @@ nav ul li {
     flex-direction: column;
 
 }
-
-
-/*background-image: linear-gradient(180deg,black,gray);
-    color: white;
-    border: none;
-    height: 38px;
-    width: 120px;
-    border-radius: 3px;
-    cursor: pointer;
-    opacity: 0.7;
-    margin-top: 2rem;*/
 
 .apply-btn{
     background-color: #0d0;
@@ -73,3 +91,107 @@ nav ul li {
     border: none;
 }
 
+.green{
+    color: #0d0;
+}
+
+.section2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.subtitle-div{
+    margin-top: 3rem;
+    width:80%;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.left,
+.middle,
+.right {
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+
+.section3{
+    display: flex;
+}
+
+.img-sec3-div{
+    width: 200%;
+}
+
+.img3{
+    width: 100%; /*750*/
+}
+
+.padding{
+    padding: 3rem;
+}
+
+.content-sect{
+    font-size: 2rem;
+}
+
+.content-sect-div{
+    margin-top: 3rem;
+}
+
+.flex-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section3 a{
+    color:#0d0;
+    font-weight: bolder;
+    font-size: 1.1rem ;
+}
+
+.section6  h2{
+    text-align: center;
+}
+.section7 h2{
+    text-align: center;
+}
+.section8 h2{
+    text-align: center;
+}
+
+.section7{
+    background:gray;
+}
+
+.section8 img{
+    width:100%;
+}
+
+.item2{
+    width:70%;
+
+}
+
+.titleh2{
+    text-align: center;
+}
+
+.section4{
+    background: #0d0;
+    display: flex;
+    justify-content: center;
+}
+
+.div1 ,.div2{
+    width:300px;
+    height: 300px;
+    background:white;
+    margin: 4rem;
+
+}
